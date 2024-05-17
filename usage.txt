@@ -1,0 +1,13 @@
+
+# setup isolated environment
+
+conda create -n yaali -y
+
+conda activate yaali
+
+# conda deactivate
+
+# nvidia cuda pytorch install
+pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
+
+pip install -r requirements.txt
